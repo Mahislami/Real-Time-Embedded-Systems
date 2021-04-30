@@ -1,0 +1,2 @@
+rootProject.name='Teeter'
+include ':app'

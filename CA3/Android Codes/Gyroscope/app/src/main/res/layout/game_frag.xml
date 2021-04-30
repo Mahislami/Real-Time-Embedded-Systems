@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.GameFragment">
+
+    <TextView
+        android:id="@+id/title1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/first_ball"/>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/ball_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:id="@+id/cor_1"
+            android:hint="@string/cor_hint"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:id="@+id/vel_1"
+            android:hint="@string/velo_hint"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/title2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ball_1"
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="@string/second_ball"/>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/ball_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:id="@+id/cor_2"
+            android:hint="@string/cor_hint"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:id="@+id/vel_2"
+            android:hint="@string/velo_hint"
+            android:background="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/game_desk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ball_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btn_start"
+        android:background="@drawable/desk1"
+        android:layout_width="@dimen/desk_width"
+        android:layout_height="@dimen/desk_height">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ballOne"
+            android:layout_width="@dimen/ball"
+            android:layout_height="@dimen/ball"
+            android:src="@drawable/blue_ball"/>
+
+        <ImageView
+            android:id="@+id/ballTwo"
+            android:layout_width="@dimen/ball"
+            android:layout_height="@dimen/ball"
+            android:src="@drawable/red_ball"/>
+
+    </FrameLayout>
+
+    <Button
+        android:background="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/start"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

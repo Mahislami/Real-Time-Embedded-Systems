@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Teeter</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="gravity">Gravity</string>
+    <string name="start">Start</string>
+    <string name="cor_hint">Coordination Like: 2i + j</string>
+    <string name="velo_hint">Velocity Like: 3i + j</string>
+    <string name="first_ball">First Ball</string>
+    <string name="second_ball">Second Ball</string>
+    <string name="stop">Stop</string>
+    <string name="no_sensor">sensor not supported</string>
+</resources>

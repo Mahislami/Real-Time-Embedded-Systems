@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    style="@style/Animation.AppCompat.Tooltip"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/spaceb"
+    android:soundEffectsEnabled="?android:attr/windowOverscan">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="top"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="20dp">
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Super Spinner Bros"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="24sp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/plain_text_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:inputType="text"
+                android:text="Moon"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="36sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/plain_text_input2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="serif-monospace"
+                android:inputType="text"
+                android:text="Sun"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ff9966"
+                android:textSize="36sp"
+                android:visibility="visible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/welcome2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="X"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/xMoon"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="950"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/welcome5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="X"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/xSun"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="130"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible"
+                tools:text="130" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/welcome3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Y"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/yMoon"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="1790"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/welcome6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Y"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="24sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/ySun"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="130"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/welcome4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Vx"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/vx1"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/welcome7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Vx"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/vx2"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/welcome8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Vy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/vy1"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/welcome9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:inputType="text"
+                android:text="Vy"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#ccffff"
+                android:textSize="16sp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/vy2"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:background="@color/colorAccent"
+                android:inputType="number"
+                android:text="0"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor=" #f2f2f2"
+                android:textSize="30sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp">
+
+            <Button
+                android:layout_margin="10dp"
+                android:paddingHorizontal="5dp"
+                android:id="@+id/btn_gravity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/alfa_slab_one"
+                android:outlineProvider="bounds"
+                android:text="GRAVITY"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:paddingHorizontal="5dp"
+                android:id="@+id/btn_gyroscope"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/alfa_slab_one"
+                android:outlineProvider="bounds"
+                android:text="GYROSCOPE"
+                android:textColor="@color/colorPrimaryDark" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
